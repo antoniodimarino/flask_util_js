@@ -38,7 +38,8 @@
 
 __version__ = '0.2.26'
 
-from flask import Response, Markup
+from flask import Response
+from markupsafe import Markup
 from flask import current_app
 from flask import render_template_string
 
